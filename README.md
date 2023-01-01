@@ -1,1 +1,1 @@
-# JS-Todo-App
+A simple task management web appliation to manage and organise to-do lists, built using HTML, CSS, and vanilla JS.
