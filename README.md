@@ -1,1 +1,1 @@
-A simple task management web appliccation to manage and organise to-do lists, built using HTML, CSS, and vanilla JS.
+A simple task management web application to manage and organise to-do lists, built using HTML, CSS, and vanilla JS.
