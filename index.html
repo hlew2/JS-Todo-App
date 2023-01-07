@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Todo App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title-container">
+        <div class="title-text">Task Planning Tool</div>
+      </div>
+      <div class="input-container">
+        <input
+          type="text"
+          spellcheck="false"
+          id="todo-input"
+          placeholder="Add todo here"
+          maxlength="43"
+          put
+        />
+      </div>
+      <div class="main-container">
+        <div class="todo-container">
+          <div class="todo-title-container">
+            <h1 class="todo-title">Added</h1>
+          </div>
+          <div class="todo-item-container" id="added-container"></div>
+        </div>
+        <div class="todo-container">
+          <div class="todo-title-container">
+            <h1 class="todo-title">In Progress</h1>
+          </div>
+          <div class="todo-item-container" id="inprogress-container"></div>
+        </div>
+        <div class="todo-container">
+          <div class="todo-title-container">
+            <h1 class="todo-title">Done</h1>
+          </div>
+          <div class="todo-item-container" id="done-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
